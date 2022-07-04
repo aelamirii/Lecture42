@@ -1,0 +1,51 @@
+
+input {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+button {
+  font-size: 24px;
+  background-color: #FFFF;
+}
+
+.ng-touched.ng-valid{
+  border: 2px green solid;
+  color: #12ABED;
+
+
+
+}
+
+.ng-touched.ng-invalid{
+  border: 2px red solid;
+  color: #AB00EF;
+}
+
+
+#info{
+  font-size: 24px;
+  color: darkblue;
+
+}
+
+
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;    /* 006666   FFCC66 */
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
